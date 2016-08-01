@@ -44,7 +44,7 @@ public class FirstService {
 	@Path("/verify")
 	@Produces(MediaType.TEXT_PLAIN)
 	public Response verifyRESTService(InputStream incomingData) {
-		String result = "CrunchifyRESTService Successfully started..";
+		String result = "Test done Successfully started..";
  
 		// return HTTP response 200 in case of success
 		return Response.status(200).entity(result).build();
